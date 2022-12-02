@@ -1,0 +1,11 @@
+.header {
+    background: aliceblue;
+    height: 100px;
+    padding: 10px;
+}
+
+.header h1 {
+    color: darkolivegreen;
+    text-align: left;
+
+}
