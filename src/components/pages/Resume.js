@@ -2,8 +2,9 @@ import React from 'react'
 
 export default function Resume() {
     return (
-        <div>
+        <section className="container">
+            <h2 className="title">Resume</h2>
             
-        </div>
+        </section>
     )
 }
