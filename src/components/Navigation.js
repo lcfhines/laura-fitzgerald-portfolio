@@ -52,6 +52,7 @@ function Navigation({ currentPage, handlePageChange }) {
                 </li>
             </ul>
     </nav>
+
   )
 }
 
