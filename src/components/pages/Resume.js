@@ -21,10 +21,9 @@ export default function Resume() {
                 <button onClick={onButtonClick}>
                     Download Resume
                 </button>
-                <h3>Proficiences</h3>
-                    <p>HTML5, CSS, JavaScript, jQuery, Node.js, Express.js,< br/>
-                    MySQL, Sequelize, MongoDB, Mongoose, Webpack, ReactJS,< br/>
-                    Handlebars, Bootstrap, NoSQL, PWA, MERN </p>
+                <h3>Proficiencies</h3>
+                    <p>HTML5, CSS, JavaScript, jQuery, Node.js, Express.js, MySQL, Sequelize,< br/>
+                    MongoDB, Mongoose, Webpack, ReactJS, Handlebars, Bootstrap, NoSQL, PWA, MERN </p>
             </div>
         </section>
     )
