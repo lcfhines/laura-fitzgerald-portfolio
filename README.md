@@ -18,7 +18,7 @@ To use the app tailored to your own information, navigate to ```/src/components`
 
 ## Deployed Application
 
-The app was deployed to GitHub Pages and can be found [here]().
+The app was deployed to GitHub Pages and can be found [here](https://lcfhines.github.io/react-portfolio/).
 
 <!-- screenshot -->
 
