@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  border: 1px solid red;
+  padding:20px;
+}
+
+h2 {
+  padding: 20px;
+  color: darkolivegreen;
+}
+
+h3 {
+  padding: 10px;
+  color: darkolivegreen;
+}
+
+.content {
+  padding:20px;
+}

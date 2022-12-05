@@ -7,6 +7,10 @@
     padding: 10px;
 }
 
+ul.navbar-nav {
+    flex-direction: row;
+}
+
 li {
     align-items: left;
     padding: 10px;

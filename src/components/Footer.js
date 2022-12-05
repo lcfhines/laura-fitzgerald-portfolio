@@ -6,7 +6,8 @@ const styles = {
     alignItems:'center',
     position: 'absolute',
     bottom: '0',
-    width: '100%'
+    width: '100%',
+    justifyContent: 'center'
   },
   div: {
     color: 'navy'

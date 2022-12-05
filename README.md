@@ -14,7 +14,7 @@ Clone this repository. Run ```npm install``` to install. From the root directory
 
 ## Usage
 
-To use the app tailored to your own information, navigate to ```/src/components``` and edit the ```Header.js```, ```Footer.js```, ```Navigation.js```, and ```Project.js``` accordingly.
+To use the app tailored to your own information, navigate to ```/src/components``` and edit the components and pages accordingly.
 
 ## Deployed Application
 

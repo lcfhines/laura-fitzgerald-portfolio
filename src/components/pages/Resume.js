@@ -15,10 +15,10 @@ export default function Resume() {
     }
 
     return (
-        <section className="container">
-            <h2 className="title">Resume</h2>
-            <div className="content">
-                <button onClick={onButtonClick}>
+        <section className='container'>
+            <h2 className='title'>Resume</h2>
+            <div className='content'>
+                <button onClick={onButtonClick} className='btn btn-outline-success'>
                     Download Resume
                 </button>
                 <h3>Proficiencies</h3>
