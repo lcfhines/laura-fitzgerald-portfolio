@@ -14,7 +14,7 @@ function Navigation({ currentPage, handlePageChange }) {
                         // set page based on what current page is
                         className ={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
                     >
-                        About Me
+                        ABOUT
                     </a>
                 </li>
                 <li className="nav-item">
@@ -25,7 +25,7 @@ function Navigation({ currentPage, handlePageChange }) {
                         // set page based on what current page is
                         className ={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
                     >
-                        Portfolio
+                        PORTFOLIO
                     </a>
                 </li>
                 <li className="nav-item">
@@ -36,7 +36,7 @@ function Navigation({ currentPage, handlePageChange }) {
                         // set page based on what current page is
                         className ={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
                     >
-                        Contact
+                        CONTACT
                     </a>
                 </li>
                 <li className="nav-item">
@@ -47,7 +47,7 @@ function Navigation({ currentPage, handlePageChange }) {
                         // set page based on what current page is
                         className ={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
                     >
-                        Resume
+                        RESUME
                     </a>
                 </li>
             </ul>

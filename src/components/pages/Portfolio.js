@@ -1,34 +1,17 @@
 import React from 'react';
 import Project from '../Project';
+import '../../styles/Portfolio.css'
+import { projectList } from '../../helpers/ProjectList'
 
-const projects = [
-    {
-        id: 0,
-        name: 'SportSpot',
-        technologies: 'Node.js, Express.js, Handlebars.js, MySQL, Sequelize',
-        github: 'https://github.com/ereneedolan/Sport-spot',
-        deployed: 'https://the-sport-spot-team-1.herokuapp.com/',
-        image: './images/sportspot.png'
-    }
-]
-
-// const projectList = ({projects}) => {
-//     const renderedList = projects.map((project) => {
-//         return <Project key={project.id} project={project} />
-//     })
-// }
 
 export default function Portfolio() {
     return (
-        <section className='container'>
+        <div className='portfolio container'>
             <h2 className='title'>Portfolio</h2>
-            <div className='content'>
-                <div className='container-fluid bg-3 text-center'>
-                    <div className='row'>
-                        <Project projects={projects} />
-                    </div>
-                </div>
-            </div>
-        </section>
+            <div className='content projectList'></div>
+                {projectList.map((project, index) => {
+                    return <Project key={index} name={project.name} image={project.image} technologies={project.technologies} deployed={project.deployed} github={project.github}/>
+                })}
+        </div>
     )
 }

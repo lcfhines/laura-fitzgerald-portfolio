@@ -8,6 +8,7 @@ import Resume from './pages/Resume';
  
 
 function Header () {
+  // state variable for page in order to render content in main section using navigation links
   const [currentPage, setCurrentPage] = useState('About')
 
   const renderPage = () => {
