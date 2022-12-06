@@ -1,16 +1,23 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.15e47cc8.css",
-    "main.js": "/react-portfolio/static/js/main.b7ce376f.js",
+    "main.css": "/react-portfolio/static/css/main.daec63cd.css",
+    "main.js": "/react-portfolio/static/js/main.ef385a13.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/marvel.png": "/react-portfolio/static/media/marvel.65fbfe53466ddc792120.png",
+    "static/media/sportSpot.png": "/react-portfolio/static/media/sportSpot.28c3938accb6b9cf5e0b.png",
+    "static/media/avatar.jpeg": "/react-portfolio/static/media/avatar.a41cb90e2137044d3359.jpeg",
+    "static/media/password.png": "/react-portfolio/static/media/password.7fb73cf792fab4afd9b9.png",
+    "static/media/textEditor.png": "/react-portfolio/static/media/textEditor.94eef1e6ce8f03087cc8.png",
+    "static/media/noteTaker.png": "/react-portfolio/static/media/noteTaker.c3625f995c55098087c0.png",
+    "static/media/dailyPlanner.png": "/react-portfolio/static/media/dailyPlanner.7d5c5671430b5f936a09.png",
     "static/media/logo.svg": "/react-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/react-portfolio/index.html",
-    "main.15e47cc8.css.map": "/react-portfolio/static/css/main.15e47cc8.css.map",
-    "main.b7ce376f.js.map": "/react-portfolio/static/js/main.b7ce376f.js.map",
+    "main.daec63cd.css.map": "/react-portfolio/static/css/main.daec63cd.css.map",
+    "main.ef385a13.js.map": "/react-portfolio/static/js/main.ef385a13.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.15e47cc8.css",
-    "static/js/main.b7ce376f.js"
+    "static/css/main.daec63cd.css",
+    "static/js/main.ef385a13.js"
   ]
 }
