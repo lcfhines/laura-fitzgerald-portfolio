@@ -1,19 +1,2 @@
-.navbar {
-    /* display: flex */
-    /* padding: 10px;  */
-}
 
-.navbar-nav {
-    /* padding: 10px; */
-}
 
-ul.navbar-nav {
-    flex-direction: row;
-    /* justify-content: flex-end; */
-}
-
-li {
-    padding-left: 10px;
-    font-weight: bold;
-    font-size: 20px;
-}

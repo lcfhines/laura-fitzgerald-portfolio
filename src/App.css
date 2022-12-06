@@ -1,9 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+*{
+  margin: auto;
+  box-sizing: border-box;
+}
 
 :root {
   --background: #393f5e;
   --accent: aliceblue;
-  --title: rgb(101, 164, 87);
+  --title: rgb(117, 242, 89);
   --darkerblue: rgb(38, 44, 74);
   --headers: aliceblue;
 }
@@ -53,11 +58,19 @@
 
 h2 {
   padding: 20px;
+  padding-bottom: 0px;
   color: var(--headers);
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Inter', sans-serif;
+  font-size: 80px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.subtitle{
+  padding-left: 60px;
   font-size: 40px;
   font-weight: bold;
-  font-style: italic;
+  text-align: left;
 }
 
 h3 {
@@ -70,9 +83,63 @@ h3 {
 }
 
 body {
-  font-family:'Roboto', sans-serif;
+  font-family: 'Inter', sans-serif;
   background-color: var(--background);
   color: var(--headers);
 }
 
 
+p {
+  font-size: 18px;
+}
+
+
+.avatar {
+  border-radius: 50%;
+  width: 220px;
+  padding-bottom: 40px;
+}
+
+
+ul.navbar-nav {
+  flex-direction: row;
+}
+
+li {
+  padding-left: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  color: var(--title);
+  font-family: 'Inter', 'sans-serif';
+}
+
+form {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-width: 400px;
+}
+
+input {
+  display: block;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  width: 60%;
+  padding: 5px;
+  min-width: 300px;
+}
+
+.formMessage {
+  height: 100px;
+}
+
+.formButton {
+  width: 50%;
+  border-radius: 30px;
+}
+
+.btn {
+  border-radius: 30px;
+  font-weight: bold;
+}

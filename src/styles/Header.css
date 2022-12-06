@@ -1,5 +1,5 @@
 .header {
-    background: var(--accent);
+    background: var(--background);
     height: 120px;
     padding: 10px;
 }
@@ -9,4 +9,18 @@
     text-align: left;
     font-weight: bold;
     padding-left: 10px;
+    float: left;
+    padding-top: 10px;
+}
+
+.header nav {
+    float: right;
+}
+
+.header li {
+    padding-left: 15px;
+    font-weight: bold;
+    font-size: 30px;
+    color: var(--title);
+    font-family: 'Inter', 'sans-serif';
 }

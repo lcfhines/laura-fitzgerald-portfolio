@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../styles/Resume.css'
+import '../../App.css'
 
 export default function Resume() {
     // set up download function on click
@@ -18,6 +18,7 @@ export default function Resume() {
     return (
         <section className='container'>
             <h2 className='title'>Resume</h2>
+            <h3 className="subtitle">my skills & experience</h3>
             <div className='content'>
                 <button onClick={onButtonClick} className='btn btn-success'>
                     Download Resume
