@@ -5,7 +5,7 @@ const Project = ({ name, image, technologies, deployed, github }) => {
     return (
       <div className='project col-sm-6'>
         <div className='card'>
-        {/* <img className='card-img-top img-responsive' style='width:100%' src={image} alt='image'></img> */}
+        <img className='card-img-top img-responsive' src={image} alt='deployed app' />
           <div className='card-body'>
             <h5 className='card-title'>{name}</h5>
             <p className='card-text'>{technologies}</p>

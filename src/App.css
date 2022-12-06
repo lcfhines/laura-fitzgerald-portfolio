@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+:root {
+  --background: #fefefe;
+  --accent: aliceblue;
+  --title: rgb(101, 164, 87);
+  --headers: rgb(38, 44, 74);
+}
+
 .App {
   text-align: center;
 }
@@ -38,20 +47,31 @@
 }
 
 .container {
-  border: 1px solid red;
   padding:20px;
 }
 
 h2 {
   padding: 20px;
-  color: darkolivegreen;
+  color: var(--headers);
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  font-style: italic;
 }
 
 h3 {
   padding: 10px;
-  color: darkolivegreen;
+  color: var(--headers);
 }
 
 .content {
   padding:20px;
 }
+
+body {
+  font-family:'Roboto', sans-serif;
+  background-color: var(--background);
+  color: var(--headers);
+}
+
+

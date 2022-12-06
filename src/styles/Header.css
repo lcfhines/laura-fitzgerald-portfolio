@@ -1,11 +1,12 @@
 .header {
-    background: aliceblue;
+    background: var(--accent);
     height: 120px;
     padding: 10px;
 }
 
 .header h1 {
-    color: darkolivegreen;
+    color: var(--title);
     text-align: left;
     font-weight: bold;
+    padding-left: 10px;
 }

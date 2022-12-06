@@ -1,3 +1,10 @@
+.projectList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
 .project {
     padding: 10px;
 }

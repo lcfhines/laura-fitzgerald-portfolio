@@ -1,4 +1,5 @@
 import React from 'react'
+import '../../styles/Resume.css'
 
 export default function Resume() {
     // set up download function on click

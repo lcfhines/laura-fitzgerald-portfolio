@@ -1,0 +1,15 @@
+h2 {
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+p {
+    font-size: 18px;
+}
+
+img {
+    border-radius: 50%;
+    width: 250px;
+    padding-bottom: 20px;
+}
