@@ -10,8 +10,8 @@ const Project = ({ name, image, technologies, deployed, github }) => {
             <h5 className='card-title'>{name}</h5>
             <p className='card-text'>{technologies}</p>
             <div className='card-links'> 
-              <a href={deployed} className='btn btn-success'>Deployed Application</a>
-              <a href={github} className='btn btn-success'>GitHub Repository</a>
+              <a href={deployed} target='_blank' className='btn btn-success'>Deployed Application</a>
+              <a href={github} target='_blank' className='btn btn-success'>GitHub Repository</a>
             </div>
           </div>
         </div>
