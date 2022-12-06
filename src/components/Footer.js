@@ -4,8 +4,8 @@ const styles = {
   footer: {
     background: 'aliceblue',
     alignItems:'center',
-    position: 'absolute',
-    bottom: '0',
+    // position: 'absolute',
+    // bottom: '0',
     width: '100%',
     justifyContent: 'center'
   },
