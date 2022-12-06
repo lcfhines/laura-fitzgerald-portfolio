@@ -2,12 +2,17 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: stretch;
 }
-
 
 .project {
     padding: 10px;
 }
 .card {
     padding:10px;
+    min-height: 100%;
+}
+
+.btn-app {
+    margin: 4px;
 }

@@ -16,14 +16,6 @@ export const projectList = [
     },
     {
         id: 1,
-        name: 'Tech Blog',
-        technologies: 'Node.js, Express.js, Handlebars.js, MySQL, Sequelize',
-        github: 'https://github.com/lcfhines/tech-blog',
-        deployed: 'https://sheltered-woodland-17791.herokuapp.com/',
-        image: ''
-    },
-    {
-        id: 2,
         name: 'SportSpot',
         technologies: 'Node.js, Express.js, Handlebars.js, MySQL, Sequelize',
         github: 'https://github.com/ereneedolan/Sport-spot',
@@ -31,7 +23,7 @@ export const projectList = [
         image: sportSpot
     },
     {
-        id: 3,
+        id: 2,
         name: 'Marvel for Dummies',
         technologies: 'HTML, CSS, JavaScript, Client & Server Side APIs',
         github: 'https://github.com/malvinaH/marvel-for-dummies',
@@ -39,7 +31,7 @@ export const projectList = [
         image: marvel
     },
     {
-        id: 4,
+        id: 3,
         name: 'Note Taker',
         technologies: 'Node.js, Express.js',
         github: 'https://github.com/lcfhines/note-taker',
@@ -47,11 +39,19 @@ export const projectList = [
         image: noteTaker
     },
     {
-        id: 5,
+        id: 4,
         name: 'Daily Planner',
         technologies: 'JavaScript',
         github: 'https://github.com/lcfhines/daily-planner',
         deployed: 'https://lcfhines.github.io/daily-planner/',
         image: dailyPlanner
     },
+    {
+        id: 5,
+        name: 'Password Generator',
+        technologies: 'Node.js, Express.js, Handlebars.js, MySQL, Sequelize',
+        github: 'https://github.com/lcfhines/password-generator',
+        deployed: 'https://lcfhines.github.io/password-generator/',
+        image: password
+    }
 ]
