@@ -2,7 +2,6 @@ import React from 'react'
 
 const styles = {
   footer: {
-    background: 'aliceblue',
     alignItems:'center',
     width: '100%',
     justifyContent: 'center'

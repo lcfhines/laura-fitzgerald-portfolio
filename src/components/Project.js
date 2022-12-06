@@ -11,7 +11,7 @@ const styles = {
   },
   project: {
     padding: '15px'
-  }
+  },
 }
 
 const Project = ({ name, image, technologies, deployed, github }) => {

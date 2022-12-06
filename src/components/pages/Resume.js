@@ -19,12 +19,14 @@ export default function Resume() {
         <section className='container'>
             <h2 className='title'>Resume</h2>
             <div className='content'>
-                <button onClick={onButtonClick} className='btn btn-outline-success'>
+                <button onClick={onButtonClick} className='btn btn-success'>
                     Download Resume
                 </button>
                 <h3>Proficiencies</h3>
-                    <p>HTML5, CSS, JavaScript, jQuery, Node.js, Express.js, MySQL, Sequelize,< br/>
-                    MongoDB, Mongoose, Webpack, ReactJS, Handlebars, Bootstrap, NoSQL, PWA, MERN </p>
+                    <p>HTML5, CSS, JavaScript, jQuery, APIs, Bootstrap,< br/>
+                    Node.Js, Express.js, MySQL, Sequelize, ORM, MVC, Handlebars, Jest,< br/>
+                    NoSQL, PWA, MongoDB, Mongoose, Webpack, ReactJS, MERN, GraphQL</p>
+                    
             </div>
         </section>
     )

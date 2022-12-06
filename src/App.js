@@ -4,11 +4,17 @@ import React from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
+const styles = {
+  body: {
+    backgroundColor: '393f5e',
+    color: 'aliceblue'
+  }
+}
 
 function App() {
 
   return (
-    <body>
+    <body style={styles.body}>
       <div className="App">
         <Header />
         <Footer />

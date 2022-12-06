@@ -11,8 +11,10 @@
 .card {
     padding:10px;
     min-height: 100%;
+    color: var(--darkerblue);
 }
 
 .btn-app {
     margin: 4px;
 }
+
