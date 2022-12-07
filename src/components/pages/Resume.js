@@ -2,18 +2,6 @@ import React from 'react'
 import '../../App.css'
 
 export default function Resume() {
-    // set up download function on click
-    const onButtonClick = () => {
-        fetch('DraftResume.pdf').then(response => {
-            response.blob().then(blob => {
-                const fileURL = window.URL.createObjectURL(blob);
-                let alink = document.createElement('a');
-                alink.href = fileURL;
-                alink.dowload = 'DraftResume.pdf';
-                alink.click();
-            })
-        })
-    }
 
     return (
         <section className='container'>
@@ -29,9 +17,12 @@ export default function Resume() {
                 </div>
                 <div className='resume'>
                     <h4 className='resume-title'>Resume</h4>
-                    <button onClick={onButtonClick} className='btn btn-success'>
-                        Download Resume
-                    </button>
+                    <a href='/DraftResume.pdf' download='Laura Fitzgerald Resume'>
+                        <button id='downloadBtn' 
+                        value='download' className='btn btn-success'>
+                            Download Resume
+                        </button>
+                    </a>
                 </div>
             </div>
         </section>
