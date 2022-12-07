@@ -57,7 +57,7 @@
 }
 
 h2 {
-  padding: 20px;
+  padding: 10px;
   padding-bottom: 0px;
   color: var(--headers);
   font-family: 'Inter', sans-serif;
@@ -126,12 +126,15 @@ input {
   margin-top: 8px;
   margin-bottom: 8px;
   width: 60%;
-  padding: 5px;
+  padding: 10px;
   min-width: 300px;
+  border-radius: 10px;
+  border: none;
+  
 }
 
 .formMessage {
-  height: 100px;
+  height: 120px;
 }
 
 .formButton {
@@ -142,4 +145,14 @@ input {
 .btn {
   border-radius: 30px;
   font-weight: bold;
+}
+
+.proficiencies {
+  margin-bottom: 40px;
+}
+
+.resume-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
 }

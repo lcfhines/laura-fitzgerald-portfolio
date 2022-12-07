@@ -6,7 +6,7 @@ const styles = {
     padding: '10px'
   },
   card: {
-    backgroundColor: '#C7F3C1',
+    backgroundColor: 'aliceblue',
     padding: '10px'
   },
   project: {
