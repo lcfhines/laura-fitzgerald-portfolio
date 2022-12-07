@@ -1,29 +1,19 @@
 import React from 'react'
+import { Github, Medium, Linkedin } from 'react-bootstrap-icons';
+import 'bootstrap/dist/css/bootstrap.min.css'
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
-const styles = {
-  footer: {
-    alignItems:'center',
-    width: '100%',
-    justifyContent: 'center'
-  },
-  div: {
-    color: 'navy'
-  }
-}
 
 const Footer = () => {
   return (
-    <footer className='footer navbar' style={styles.footer}>
-      <ul className='navbar-nav'>
-        <li className='footer-link nav-item'><a href="https://github.com/lcfhines" target="_blank">GitHub</a></li>
-        <li className='footer-link nav-item'><a href="https://www.linkedin.com/in/laura-fitzgerald-4ab69572/" target="_blank">LinkedIn</a></li>
-        <li className='footer-link nav-item'><a href="https://medium.com/@lcfhines" target="_blank">Medium</a></li>
-        {/* <li className='footer-link nav-item'><a href="https://github.com/lcfhines" target="_blank"><FontAwesomeIcon icon="fa-brands fa-github" /></a></li>
-        <li className='footer-link nav-item'><a href="https://www.linkedin.com/in/laura-fitzgerald-4ab69572/" target="_blank"><FontAwesomeIcon icon="fa-brands fa-linkedin" /></a></li>
-        <li className='footer-link nav-item'><a href="https://medium.com/@lcfhines" target="_blank"><FontAwesomeIcon icon="fa-brands fa-medium" /></a></li> */}
-      </ul>      
+    <footer className='footer'>
+      <div className='container'>
+        <div className="col item social">
+          <a href="https://github.com/lcfhines"><i className="icon"><Github /></i></a>
+          <a href="https://www.linkedin.com/in/laura-fitzgerald-4ab69572/"><i class="icon"><Linkedin /></i></a>
+          <a href="https://medium.com/@lcfhines"><i className="icon"><Medium /></i></a>
+        </div>
+        <p className='copyright'>🍒 LFH &copy; 2022</p>    
+      </div>  
     </footer>
     
   )

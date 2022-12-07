@@ -156,3 +156,44 @@ input {
   font-weight: bold;
   margin-bottom: 20px;
 }
+
+footer {
+  padding: 50px 0;
+  color: white;
+}
+
+footer .item.social {
+  text-align: center;
+}
+
+@media (max-width:991px) {
+  .footer .item.social {
+    text-align:center;
+    margin-top:20px;
+  }
+}
+
+
+footer .item.social > a {
+  font-size: 36px;
+  width: 52px;
+  height: 52px;
+  line-height:52px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  margin:0 8px;
+  color:#fff;
+  opacity:0.65;
+}
+
+.footer .item.social > a:hover {
+  opacity:0.95;
+}
+
+.footer .copyright {
+  text-align:center;
+  padding-top:24px;
+  font-size:14px;
+  margin-bottom:0;
+}

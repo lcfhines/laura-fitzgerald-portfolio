@@ -10,8 +10,8 @@ export default function About() {
             <div className="content">
                 <img className='avatar' src={avatar} alt='avatar' />
                 <br />
-                <p>I'm a new web developer who has just completed Columbia University's Coding Bootcamp and earned a certificate in full-stack web development.</p><br />
-                <p>After graduating from the University of Virginia in 2014, I moved to New York and have worked in operational roles for the last 8 years. At my last company, a heathcare tech startup, I spent a lot of time collaborating with the engineers and developers and found myself intrigued by their work. This ultimately inspired me to make a pivot and enroll in the bootcamp.</p>
+                <p>I'm an NYC based web developer who has just completed Columbia University's Coding Bootcamp and earned a certificate in full-stack web development.</p><br />
+                <p>I have 8+ years of professional experience in a variety of operational roles in New York. As Chief of Staff to the COO at my last company, a healthcare tech startup, I spent a lot of time collaborating with the engineers and developers and found myself intrigued by their work. That work ultimately inspired me to make a pivot and enroll in Columbia's bootcamp.</p>
             </div>
         </section>
     )
