@@ -7,7 +7,8 @@ const styles = {
   },
   card: {
     backgroundColor: 'aliceblue',
-    padding: '10px'
+    padding: '10px',
+    boxShadow: '5px 5px 5px 5px'
   },
   project: {
     padding: '15px'
@@ -21,7 +22,7 @@ const Project = ({ name, image, technologies, deployed, github }) => {
         <img className='card-img-top img-responsive' src={image} alt='deployed app' style={styles.img} />
           <div className='card-body'>
             <h5 className='card-title'>{name}</h5>
-            <p className='card-text'>{technologies}</p>
+            <p className='card-text'>🛠️ {technologies}</p>
             <div className='card-links'> 
               <a href={deployed} target='_blank' className='btn btn-success btn-app'>Deployed Application</a>
               <a href={github} target='_blank' className='btn btn-success btn-app'>GitHub Repository</a>
