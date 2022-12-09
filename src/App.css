@@ -57,9 +57,9 @@
   padding:20px;
 }
 
+
 h2 {
-  padding: 10px;
-  padding-bottom: 0px;
+  padding: 0px 10px 0px 10px;
   color: var(--headers);
   font-family: 'Inter', sans-serif;
   font-size: 80px;
