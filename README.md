@@ -18,11 +18,14 @@ To use the app tailored to your own information, navigate to ```/src/components`
 
 ## Deployed Application
 
-The app was deployed to GitHub Pages and can be found [here](https://lcfhines.github.io/react-portfolio/).
+The app was deployed to GitHub Pages and can be found [here](https://lcfhines.github.io/react-portfolio/).  
 
-<!-- screenshot -->
+<img width="837" alt="Screenshot 2022-12-08 at 10 13 12 PM" src="https://user-images.githubusercontent.com/113798073/206616218-85949cae-f774-4705-8c20-8f85c50f727c.png">
+
 
 ## Technologies
+
+The app uses a variety of technologies with a focus on React.
 
 
 ## Credits
