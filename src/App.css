@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500&family=Inter:wght@400;700&display=swap');
 
 *{
   margin: auto;
@@ -92,6 +92,7 @@ body {
 
 p {
   font-size: 18px;
+  font-family: 'Inter Tight', sans-serif;
 }
 
 
@@ -208,4 +209,26 @@ footer .item.social > a {
   font-weight: bold;
   color: var(--darkerblue);
   font-size: 15px;
+}
+
+.about {
+  text-align: left;
+}
+
+.skills-header {
+  font-weight: bold;
+  color: var(--title);
+}
+
+.skills-list {
+  list-style: none;
+}
+
+.skills-list li {
+  color: var(--accent);
+  font-weight: lighter;
+}
+
+.skills-column {
+  /* background-color: #007bff; */
 }

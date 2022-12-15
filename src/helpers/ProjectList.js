@@ -3,11 +3,20 @@ import dailyPlanner from '../assets/dailyPlanner.png';
 import marvel from '../assets/marvel.png';
 import password from '../assets/password.png';
 import textEditor from '../assets/textEditor.png';
-import noteTaker from '../assets/noteTaker.png'
+import noteTaker from '../assets/noteTaker.png';
+import escapeRoom from '../assets/escapeRoom.png'
 
 export const projectList = [
     {
         id: 0,
+        name: 'Virtual Escape Room',
+        technologies: 'MongoDB, Mongoose, GraphQL, Express.js, Node.js, React',
+        github: 'https://github.com/mikeyboxx/virtual-escape-room',
+        deployed: 'https://virtual-escape-room-mikeyboxx.herokuapp.com',
+        image: escapeRoom
+    },
+    {
+        id: 1,
         name: 'Text Editor',
         technologies: 'Webpack, IndexedDB, PWA',
         github: 'https://github.com/lcfhines/text-editor',
@@ -15,7 +24,7 @@ export const projectList = [
         image: textEditor
     },
     {
-        id: 1,
+        id: 2,
         name: 'SportSpot',
         technologies: 'Node.js, Express.js, Handlebars.js, MySQL, Sequelize',
         github: 'https://github.com/ereneedolan/Sport-spot',
@@ -23,7 +32,7 @@ export const projectList = [
         image: sportSpot
     },
     {
-        id: 2,
+        id: 3,
         name: 'Marvel for Dummies',
         technologies: 'HTML, CSS, JavaScript, Client & Server Side APIs',
         github: 'https://github.com/malvinaH/marvel-for-dummies',
@@ -31,7 +40,7 @@ export const projectList = [
         image: marvel
     },
     {
-        id: 3,
+        id: 4,
         name: 'Note Taker',
         technologies: 'Node.js, Express.js',
         github: 'https://github.com/lcfhines/note-taker',
@@ -39,7 +48,7 @@ export const projectList = [
         image: noteTaker
     },
     {
-        id: 4,
+        id: 5,
         name: 'Daily Planner',
         technologies: 'JavaScript',
         github: 'https://github.com/lcfhines/daily-planner',
@@ -47,7 +56,7 @@ export const projectList = [
         image: dailyPlanner
     },
     {
-        id: 5,
+        id: 6,
         name: 'Password Generator',
         technologies: 'Node.js, Express.js, Handlebars.js, MySQL, Sequelize',
         github: 'https://github.com/lcfhines/password-generator',

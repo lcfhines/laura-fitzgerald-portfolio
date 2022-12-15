@@ -14,10 +14,10 @@ export default function About() {
                             <img className='avatar' src={avatar} alt='avatar' />
                         </div>
                         <div className='col-sm-6'>
-                            <p>I'm an NYC based web developer who has just completed Columbia University's Coding Bootcamp and earned a certificate in full-stack web development.</p>
+                            <p className='about'>I'm an NYC based web developer who has just completed Columbia University's Coding Bootcamp and earned a certificate in full-stack web development.</p>
                         </div>
                     </div>
-                    <p>I have 8+ years of professional experience in a variety of operational roles in New York. As Chief of Staff to the COO at my last company, a healthcare tech startup, I spent a lot of time collaborating with the engineers and developers and found myself intrigued by their work. That work ultimately inspired me to make a pivot and enroll in Columbia's bootcamp.</p>
+                    <p className='about'>I have 8+ years of professional experience in a variety of operational roles in New York. As Chief of Staff to the COO at my last company, a healthcare tech startup, I spent a lot of time collaborating with the engineers and developers and found myself intrigued by their work. That work ultimately inspired me to make a pivot and enroll in Columbia's bootcamp.</p>
                 </div>
             </div>
         </section>
