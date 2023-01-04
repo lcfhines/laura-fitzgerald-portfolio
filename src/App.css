@@ -72,6 +72,7 @@ h2 {
   font-size: 40px;
   font-weight: bold;
   text-align: left;
+  color: var(--title);
 }
 
 h3 {
@@ -215,11 +216,6 @@ footer .item.social > a {
   text-align: left;
 }
 
-.skills-header {
-  font-weight: bold;
-  color: var(--title);
-}
-
 .skills-list {
   list-style: none;
 }
@@ -227,8 +223,4 @@ footer .item.social > a {
 .skills-list li {
   color: var(--accent);
   font-weight: lighter;
-}
-
-.skills-column {
-  /* background-color: #007bff; */
 }

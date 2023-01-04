@@ -9,60 +9,54 @@ export default function Resume() {
             <h3 className="subtitle">my skills & experience</h3>
             <div className='content'>
                 <div className='proficiencies'>
-                    <h4 className='resume-title'>Proficiencies</h4>
-                    {/* <p>HTML5, CSS, JavaScript, jQuery, APIs, Bootstrap,< br/>
-                    Node.Js, Express.js, MySQL, Sequelize, ORM, MVC, Handlebars, Jest,< br/>
-                    NoSQL, PWA, MongoDB, Mongoose, Webpack, ReactJS, MERN, GraphQL</p> */}
+                    <h4 className='resume-title'>Programming Languages & Technical Skills</h4>
                     <div className='container skills'>
                         <div className='row'>
                             <div className='col-sm'>
                                 <div className='skills-column'>
-                                    <h5 className='skills-header'>Programming Languages</h5>
                                     <ul className='skills-list'>
-                                        <li>HTML, HTML5</li>
-                                        <li>CSS</li>
-                                        <li>JavaScript</li>
-                                        <li>jQuery</li>
-                                        <li>MySQL</li>
-
-                                        <li>Git</li>
-                                        <li>Bootstrap</li>
-                                        <li>Document Object Model (DOM)</li>
                                         <li>APIs</li>
-                                        
-                                        <li>JSON</li>
-                                        <li>RESTful APIs</li>
-                                        <li>GraphQL</li>
-                                        <li>Webpack</li>
-                                        <li>Vite</li>
                                         <li>Apollo Client/Server</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div className='col-sm'>
-                                <div className='skills-column'>
-                                    <h5 className='skills-header'>Technical Skills</h5>
-                                    <ul className='skills-list'>
-                                        <li>Node</li>
-                                        <li>ES6</li>
-                                        <li>Object-Oriented Programming (OOP)</li>
-                                        <li>Express</li>
-                                        <li>MySQL</li>
-                                        <li>Model-View-Controller (MVC)</li>
-                                        <li>Sequelize</li>
+                                        <li>Bootstrap</li>
+                                        <li>CSS</li>
+                                        <li>DOM</li>
+                                        <li>Express.js</li>
+                                        <li>Git</li>
+                                        <li>GraphQL</li>
                                         <li>Handlebars</li>
-                                        <li>Jest</li>
+                                        <li>Heroku</li>
                                     </ul>
                                 </div>
                             </div>
                             <div className='col-sm'>
                                 <div className='skills-column'>
-                                    <h5 className='skills-header'>Performance Skills</h5>
                                     <ul className='skills-list'>
-                                        <li>Progressive Web Apps (PWA)</li>
-                                        <li>React</li>
-                                        <li>NoSQL</li>
+                                        <li>HTML</li>
+                                        <li>Insomnia</li>
+                                        <li>JavaScript</li>
+                                        <li>Jest</li>
+                                        <li>jQuery</li>
+                                        <li>JSON</li>
                                         <li>MERN Stack</li>
+                                        <li>MongoDB</li>
+                                        <li>Mongoose</li>
+                                        <li>MVC</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className='col-sm'>
+                                <div className='skills-column'>
+                                    <ul className='skills-list'>
+                                        <li>MySQL</li>
+                                        <li>Node.js</li>
+                                        <li>NoSQL</li>
+                                        <li>OOP</li>
+                                        <li>ORM</li>
+                                        <li>PWA</li>
+                                        <li>React</li>
+                                        <li>RESTful APIs</li>
+                                        <li>Sequelize</li>
+                                        <li>Webpack</li>
                                     </ul>
                                 </div>
                             </div>
