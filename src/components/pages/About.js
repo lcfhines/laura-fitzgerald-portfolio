@@ -14,10 +14,11 @@ export default function About() {
                             <img className='avatar' src={avatar} alt='avatar' />
                         </div>
                         <div className='col-sm-6'>
-                            <p className='about'>I'm an NYC based web developer who has just completed Columbia University's Coding Bootcamp and earned a certificate in full-stack web development.</p>
+                            <p className='about'>I'm a creative and solutions-driven full stack web developer who recently earned a certificate in full stack development from Columbia University. I have honed skills in HTML, CSS, JavaScript, React.js, MySQL, and more to design and build meaningful applications from ideation to production.</p>
                         </div>
                     </div>
-                    <p className='about'>I have 8+ years of professional experience in a variety of operational roles in New York. As Chief of Staff to the COO at my last company, a healthcare tech startup, I spent a lot of time collaborating with the engineers and developers and found myself intrigued by their work. That work ultimately inspired me to make a pivot and enroll in Columbia's bootcamp.</p>
+                    <p className='about'></p>
+                    <p className='about'>I have 8+ years of professional experience in a variety of operational roles in New York. Most recently, I served as Chief of Staff to the COO at a healthcare tech startup where I spent a lot of time collaborating with engineers and developers, ultimately inspiring me to make a pivot. Leveraging my background in operations, I am able to take users’ needs and issues, translate to product solutions, and execute the technical work.</p>
                 </div>
             </div>
         </section>
