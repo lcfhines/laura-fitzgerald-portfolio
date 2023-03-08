@@ -30,10 +30,9 @@ const handlePageChange = (page) => setCurrentPage(page);
 
   return (
     <div>
-    <header className="header">
-        <h1>LAURA FITZGERALD</h1>
+    {/* <header className="header"> */}
         <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
-    </header>
+    {/* </header> */}
     <main>
       <div>
         {renderPage(currentPage)}

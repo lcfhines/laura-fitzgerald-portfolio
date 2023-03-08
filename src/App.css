@@ -1,7 +1,8 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500&family=Inter:wght@400;700&display=swap'); */
 
 *{
-  margin: auto;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -110,11 +111,6 @@ p {
   width: 220px;
 }
 
-
-ul.navbar-nav {
-  flex-direction: row;
-}
-
 li {
   /* padding-left: 10px; */
   font-weight: 400;
@@ -210,7 +206,7 @@ footer .item.social > a {
 
 .card-title {
   font-weight: bold;
-  color: var(--blueaccent);
+  color: var(--accent);
   font-size: 24px;
 }
 
@@ -242,5 +238,4 @@ footer .item.social > a {
 #contact-list {
   list-style: none;
   text-align: left;
-  
 }

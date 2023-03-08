@@ -1,32 +1,113 @@
-.header {
+header {
     background: var(--background);
-    height: 120px;
-    padding: 10px;
-    padding-bottom: 0px;
+    /* height: 120px; */
+    padding: 15px 6% 15px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
-.header h1 {
+.navbar {
+    /* float: left; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.nav-name {
+    font-weight: 800;
+    font-size: 48px;
     color: var(--title);
-    text-align: left;
-    font-weight: bold;
+    font-family:'Plus Jakarta Sans', sans-serif;
+    padding: 5px 1% 5px 6%;
+    margin: 0;
+    font-size: 4vw;
+    line-height: 1;
+}
+
+.nav-item {
     padding-left: 10px;
-    float: left;
-    padding-top: 10px;
+    color: var(--title);
 }
 
-.header nav {
-    float: right;
-}
-
-.header li {
-    padding-left: 15px;
+.nav-item a {
+    color: var(--accent);
     font-weight: bold;
     font-size: 30px;
     color: var(--title);
     font-family:'Plus Jakarta Sans', sans-serif;
 }
 
-a:hover {
-    box-shadow: inset;
-    color: white
+.nav-item .active, .nav-item a:hover {
+    background-color: var(--accent);
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
 }
+
+/* Mobile nav */
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar-nav li a {
+    display: block;
+    padding: 15px 5px;
+  }
+
+  .nav-item {
+    order: 3;
+    width: 100%;
+    text-align: center;
+    display: block;
+  }
+
+  /* Tablet menu */
+@media all and (min-width: 700px) {
+    header {
+        padding: 0 0 10px 0;
+        justify-content: center;
+        text-align: center;
+    }
+
+    header h1 {
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 10px;
+        font-size: 10vw;
+    }
+    .navbar {
+        justify-content: center;
+    }
+    
+    .navbar-nav {
+      justify-content: center;
+    }
+    .nav-name {
+      flex: 1;
+    }
+  }
+
+  /* Desktop menu */
+@media all and (min-width: 960px) {
+    .navbar-nav {
+      align-items: flex-start;
+      flex-wrap: nowrap;
+      background: none;
+    }
+    .nav-name {
+      order: 0;
+    }
+    .nav-item {
+      order: 1;
+      position: relative;
+      display: block;
+      width: auto;
+    }
+  }

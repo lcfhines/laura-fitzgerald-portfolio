@@ -5,7 +5,7 @@ export default function Resume() {
 
     return (
         <section className='container'>
-            <h2 className='title'>RESUME</h2>
+            {/* <h2 className='title'>RESUME</h2> */}
             <h3 className="subtitle">my skills & experience</h3>
             <div className='content'>
                 <div className='proficiencies'>
