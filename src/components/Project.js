@@ -6,7 +6,7 @@ const styles = {
     padding: '10px'
   },
   card: {
-    backgroundColor: 'aliceblue',
+    backgroundColor: 'white',
     padding: '10px',
     boxShadow: '5px 5px 5px 5px'
   },

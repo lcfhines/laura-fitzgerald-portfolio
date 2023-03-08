@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500&family=Inter:wght@400;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500&family=Inter:wght@400;700&display=swap'); */
 
 *{
   margin: auto;
@@ -6,11 +6,16 @@
 }
 
 :root {
-  --background: #393f5e;
-  --accent: aliceblue;
-  --title: rgb(117, 242, 89);
+  /* --background: #393f5e; */
+  --background: #FFCBDE;
+  /* --accent: aliceblue; */
+  --accent: #FF1D25;
+  /* --title: rgb(117, 242, 89); */
+  --title: #FF1D25;
+  /* --darkerblue: rgb(38, 44, 74); */
   --darkerblue: rgb(38, 44, 74);
-  --headers: aliceblue;
+  /* --headers: aliceblue; */
+  --headers: #FF1D25;
   --blueaccent: #007bff;
 }
 
@@ -61,23 +66,24 @@
 h2 {
   padding: 0px 10px 0px 10px;
   color: var(--headers);
-  font-family: 'Inter', sans-serif;
-  font-size: 80px;
-  font-weight: bold;
+  font-family:'Plus Jakarta Sans', sans-serif;
+  font-size: 100px;
+  font-weight: 700;
   text-align: left;
 }
 
 .subtitle{
   padding-left: 60px;
-  font-size: 40px;
-  font-weight: bold;
+  font-size: 80px;
   text-align: left;
   color: var(--title);
+  font-weight: 700;
 }
 
 h3 {
   padding: 10px;
   color: var(--headers);
+  font-weight: 700;
 }
 
 .content {
@@ -85,15 +91,17 @@ h3 {
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family:'Plus Jakarta Sans', sans-serif;
   background-color: var(--background);
   color: var(--headers);
+  font-weight: 600;
 }
 
 
 p {
   font-size: 18px;
-  font-family: 'Inter Tight', sans-serif;
+  font-family:'Plus Jakarta Sans', sans-serif;
+  font-weight: 400;
 }
 
 
@@ -108,11 +116,11 @@ ul.navbar-nav {
 }
 
 li {
-  padding-left: 10px;
-  font-weight: bold;
+  /* padding-left: 10px; */
+  font-weight: 400;
   font-size: 20px;
   color: var(--title);
-  font-family: 'Inter', 'sans-serif';
+  font-family:'Plus Jakarta Sans', sans-serif;
 }
 
 form {
@@ -161,7 +169,7 @@ input {
 
 footer {
   padding: 50px 0;
-  color: white;
+  color: var(--accent);
 }
 
 footer .item.social {
@@ -196,7 +204,7 @@ footer .item.social > a {
 .footer .copyright {
   text-align:center;
   padding-top:24px;
-  font-size:14px;
+  font-size:16px;
   margin-bottom:0;
 }
 
@@ -214,6 +222,7 @@ footer .item.social > a {
 
 .about {
   text-align: left;
+  color: var(--accent)
 }
 
 .skills-list {
@@ -222,5 +231,16 @@ footer .item.social > a {
 
 .skills-list li {
   color: var(--accent);
-  font-weight: lighter;
+  font-weight: 700;
+}
+
+#contact-content p {
+  text-align: left;
+  font-size: 22px;
+}
+
+#contact-list {
+  list-style: none;
+  text-align: left;
+  
 }

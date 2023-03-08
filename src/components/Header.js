@@ -31,7 +31,7 @@ const handlePageChange = (page) => setCurrentPage(page);
   return (
     <div>
     <header className="header">
-        <h1>Laura Fitzgerald</h1>
+        <h1>LAURA FITZGERALD</h1>
         <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
     </header>
     <main>

@@ -7,7 +7,7 @@ import Footer from './components/Footer';
 const styles = {
   body: {
     backgroundColor: '393f5e',
-    color: 'aliceblue'
+    color: 'FF1D25'
   }
 }
 

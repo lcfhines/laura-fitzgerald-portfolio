@@ -5,7 +5,7 @@ import avatar from '../../assets/avatar.jpeg'
 export default function About() {
     return (
         <section className="container">
-            <h2 className="title">I'm Laura.</h2>
+            <h2 className="title">I'M LAURA</h2>
             <h3 className="subtitle">hi!</h3>
             <div className="content">
                 <div className='container'>

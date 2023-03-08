@@ -23,7 +23,7 @@
     font-weight: bold;
     font-size: 30px;
     color: var(--title);
-    font-family: 'Inter', 'sans-serif';
+    font-family:'Plus Jakarta Sans', sans-serif;
 }
 
 a:hover {
