@@ -11,10 +11,10 @@ export default function About() {
                 <div className='container'>
                     <div className='row'>
                         <div className='col-sm-6'>
-                            <img className='avatar' src={avatar} alt='avatar' />
+                            <p className='about'>I'm a creative and solutions-driven full stack web developer who recently earned a certificate in full stack development from Columbia University. I have honed skills in HTML, CSS, JavaScript, React.js, MySQL, and more to design and build meaningful applications from ideation to production.</p>
                         </div>
                         <div className='col-sm-6'>
-                            <p className='about'>I'm a creative and solutions-driven full stack web developer who recently earned a certificate in full stack development from Columbia University. I have honed skills in HTML, CSS, JavaScript, React.js, MySQL, and more to design and build meaningful applications from ideation to production.</p>
+                            <img className='avatar' src={avatar} alt='avatar' />
                         </div>
                     </div>
                     <p className='about'></p>

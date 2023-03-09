@@ -11,8 +11,8 @@ export const projectList = [
         id: 0,
         name: 'Virtual Escape Room',
         technologies: 'MongoDB, Mongoose, GraphQL, Express.js, Node.js, React',
-        github: 'https://github.com/mikeyboxx/virtual-escape-room',
-        deployed: 'https://virtual-escape-room-mikeyboxx.herokuapp.com',
+        github: 'https://github.com/lcfhines/virtual-escape-room',
+        deployed: 'https://lcfhines.github.io/virtual-escape-room/',
         image: escapeRoom
     },
     {

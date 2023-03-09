@@ -33,17 +33,6 @@ function Navigation({ currentPage, handlePageChange }) {
                     </li>
                     <li className="nav-item">
                         <a 
-                            href="#contact"
-                            // on click, run handlePageChange for the about page
-                            onClick={() => handlePageChange('Contact')}
-                            // set page based on what current page is
-                            className ={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
-                        >
-                            CONTACT
-                        </a>
-                    </li>
-                    <li className="nav-item">
-                        <a 
                             href="#resume"
                             // on click, run handlePageChange for the about page
                             onClick={() => handlePageChange('Resume')}
@@ -51,6 +40,17 @@ function Navigation({ currentPage, handlePageChange }) {
                             className ={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
                         >
                             RESUME
+                        </a>
+                    </li>
+                    <li className="nav-item">
+                        <a 
+                            href="#contact"
+                            // on click, run handlePageChange for the about page
+                            onClick={() => handlePageChange('Contact')}
+                            // set page based on what current page is
+                            className ={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+                        >
+                            CONTACT
                         </a>
                     </li>
                 </ul>

@@ -21,7 +21,7 @@ header {
     font-size: 48px;
     color: var(--title);
     font-family:'Plus Jakarta Sans', sans-serif;
-    padding: 5px 1% 5px 6%;
+    /* padding: 5px 1% 5px 6%; */
     margin: 0;
     font-size: 4vw;
     line-height: 1;
@@ -71,7 +71,7 @@ header {
   /* Tablet menu */
 @media all and (min-width: 700px) {
     header {
-        padding: 0 0 10px 0;
+        /* padding: 0 0 10px 0; */
         justify-content: center;
         text-align: center;
     }

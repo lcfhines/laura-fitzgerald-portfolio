@@ -60,7 +60,7 @@
 }
 
 .container {
-  padding:20px;
+  padding: 0px 20px 20px 20px;
 }
 
 
@@ -74,9 +74,8 @@ h2 {
 }
 
 .subtitle{
-  padding-left: 60px;
+  text-align: center;
   font-size: 80px;
-  text-align: left;
   color: var(--title);
   font-weight: 700;
 }
@@ -158,9 +157,14 @@ input {
 }
 
 .resume-title {
-  font-size: 30px;
+  font-size: 35px;
   font-weight: bold;
   margin-bottom: 20px;
+  color: var(--accent);
+}
+
+#skills-section {
+  background-color: #FFE3ED;
 }
 
 footer {
@@ -217,7 +221,7 @@ footer .item.social > a {
 }
 
 .about {
-  text-align: left;
+  text-align: center;
   color: var(--accent)
 }
 
@@ -238,4 +242,12 @@ footer .item.social > a {
 #contact-list {
   list-style: none;
   text-align: left;
+}
+
+#downloadBtn {
+  padding: 12px;
+}
+
+.resume {
+  padding: 20px 20px 30px 20px
 }

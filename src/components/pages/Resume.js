@@ -6,8 +6,16 @@ export default function Resume() {
     return (
         <section className='container'>
             {/* <h2 className='title'>RESUME</h2> */}
-            <h3 className="subtitle">my skills & experience</h3>
-            <div className='content'>
+            
+            <div className='resume'>
+                <h3 className="subtitle">my skills & experience</h3>
+                <a href='/DraftResume.pdf' download='Laura Fitzgerald Resume'>
+                    <button id='downloadBtn' value='download' className='btn btn-success'>
+                            Download Resume
+                    </button>
+                </a>
+            </div>
+            <div className='content' id="skills-section">
                 <div className='proficiencies'>
                     <h4 className='resume-title'>Programming Languages & Technical Skills</h4>
                     <div className='container skills'>
@@ -63,15 +71,7 @@ export default function Resume() {
                         </div>
                     </div>
                 </div>
-                <div className='resume'>
-                    <h4 className='resume-title'>Resume</h4>
-                    <a href='/DraftResume.pdf' download='Laura Fitzgerald Resume'>
-                        <button id='downloadBtn' 
-                        value='download' className='btn btn-success'>
-                            Download Resume
-                        </button>
-                    </a>
-                </div>
+
             </div>
         </section>
     )
