@@ -18,9 +18,10 @@ To use the app tailored to your own information, navigate to ```/src/components`
 
 ## Deployed Application
 
-The app was deployed to GitHub Pages and can be found [here](https://lcfhines.github.io/react-portfolio/).  
+The app was deployed to GitHub Pages and can be found [here](https://lcfhines.github.io/laura-fitzgerald-portfolio/).  
 
-<img width="837" alt="Screenshot 2022-12-08 at 10 13 12 PM" src="https://user-images.githubusercontent.com/113798073/206616218-85949cae-f774-4705-8c20-8f85c50f727c.png">
+
+<img width="1306" alt="Screenshot 2023-03-09 at 2 24 26 PM" src="https://user-images.githubusercontent.com/113798073/224132837-3e198ead-6e9c-466a-8feb-1b4ac010f70b.png">
 
 
 ## Technologies
