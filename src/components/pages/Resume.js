@@ -70,6 +70,37 @@ export default function Resume() {
                             </div>
                         </div>
                     </div>
+                    <h4 className='resume-title'>Other Skills</h4>
+                    <div className='container skills'>
+                        <div className='row'>
+                            <div className='col-sm'>
+                                <div className='skills-column'>
+                                    <ul className='skills-list'>
+                                        <li>MS Office Suite</li>
+                                        <li>Google Suite</li>
+                                        <li>Salesforce</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className='col-sm'>
+                                <div className='skills-column'>
+                                    <ul className='skills-list'>
+                                        <li>Looker</li>
+                                        <li>Jira</li>
+                                        <li>Tableau</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className='col-sm'>
+                                <div className='skills-column'>
+                                    <ul className='skills-list'>
+                                        <li>Figma</li>
+                                        <li>Braze</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
             </div>
