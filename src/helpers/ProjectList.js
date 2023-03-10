@@ -27,16 +27,16 @@ export const projectList = [
         id: 2,
         name: 'SportSpot',
         technologies: 'Node.js, Express.js, Handlebars.js, MySQL, Sequelize',
-        github: 'https://github.com/ereneedolan/Sport-spot',
-        deployed: 'https://the-sport-spot-team-1.herokuapp.com/',
+        github: 'hhttps://github.com/lcfhines/Sport-spot',
+        deployed: 'https://sport-spot-app.herokuapp.com/',
         image: sportSpot
     },
     {
         id: 3,
         name: 'Marvel for Dummies',
         technologies: 'HTML, CSS, JavaScript, Client & Server Side APIs',
-        github: 'https://github.com/malvinaH/marvel-for-dummies',
-        deployed: 'https://malvinah.github.io/marvel-for-dummies/',
+        github: 'https://github.com/lcfhines/marvel-for-dummies',
+        deployed: 'https://lcfhines.github.io/marvel-for-dummies/',
         image: marvel
     },
     {
