@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/laura-fitzgerald-portfolio/static/css/main.55b56256.css",
-    "main.js": "/laura-fitzgerald-portfolio/static/js/main.3b10cce6.js",
+    "main.css": "/laura-fitzgerald-portfolio/static/css/main.ccf29465.css",
+    "main.js": "/laura-fitzgerald-portfolio/static/js/main.1de3f053.js",
     "static/js/787.a2cb61a6.chunk.js": "/laura-fitzgerald-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/marvel.png": "/laura-fitzgerald-portfolio/static/media/marvel.65fbfe53466ddc792120.png",
     "static/media/avatar.jpeg": "/laura-fitzgerald-portfolio/static/media/avatar.2910d38fe0a5684e5ce8.jpeg",
@@ -13,12 +13,12 @@
     "static/media/password.png": "/laura-fitzgerald-portfolio/static/media/password.da94cef74ba112a073be.png",
     "static/media/logo.svg": "/laura-fitzgerald-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/laura-fitzgerald-portfolio/index.html",
-    "main.55b56256.css.map": "/laura-fitzgerald-portfolio/static/css/main.55b56256.css.map",
-    "main.3b10cce6.js.map": "/laura-fitzgerald-portfolio/static/js/main.3b10cce6.js.map",
+    "main.ccf29465.css.map": "/laura-fitzgerald-portfolio/static/css/main.ccf29465.css.map",
+    "main.1de3f053.js.map": "/laura-fitzgerald-portfolio/static/js/main.1de3f053.js.map",
     "787.a2cb61a6.chunk.js.map": "/laura-fitzgerald-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.55b56256.css",
-    "static/js/main.3b10cce6.js"
+    "static/css/main.ccf29465.css",
+    "static/js/main.1de3f053.js"
   ]
 }
