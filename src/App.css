@@ -104,10 +104,15 @@ p {
   font-weight: 400;
 }
 
-
 .avatar {
   padding-bottom: 40px;
   width: 220px;
+}
+
+#about-col {
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
 }
 
 li {
@@ -250,4 +255,18 @@ footer .item.social > a {
 
 .resume {
   padding: 20px 20px 30px 20px
+}
+
+
+/* Mobile and ablet menu */
+@media all and (max-width: 768px) {
+.subtitle {
+  font-size: 42px;
+}
+}
+
+
+/* Desktop menu */
+@media all and (max-width: 980px) {
+
 }
