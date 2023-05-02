@@ -76,18 +76,18 @@ export default function Resume() {
                             <div className='col-sm'>
                                 <div className='skills-column'>
                                     <ul className='skills-list'>
-                                        <li>MS Office Suite</li>
-                                        <li>Google Suite</li>
+                                        <li>Excel</li>
                                         <li>Salesforce</li>
+                                        <li>Looker</li>
                                     </ul>
                                 </div>
                             </div>
                             <div className='col-sm'>
                                 <div className='skills-column'>
                                     <ul className='skills-list'>
-                                        <li>Looker</li>
                                         <li>Jira</li>
                                         <li>Tableau</li>
+                                        <li>Asana</li>
                                     </ul>
                                 </div>
                             </div>
@@ -96,6 +96,7 @@ export default function Resume() {
                                     <ul className='skills-list'>
                                         <li>Figma</li>
                                         <li>Braze</li>
+                                        <li>monday.com</li>
                                     </ul>
                                 </div>
                             </div>
