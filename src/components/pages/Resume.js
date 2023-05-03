@@ -96,7 +96,7 @@ export default function Resume() {
                                     <ul className='skills-list'>
                                         <li>Figma</li>
                                         <li>Braze</li>
-                                        <li>monday.com</li>
+                                        <li>Agile</li>
                                     </ul>
                                 </div>
                             </div>

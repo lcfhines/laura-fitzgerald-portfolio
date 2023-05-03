@@ -11,14 +11,14 @@ export default function About() {
                 <div className='container'>
                     <div className='row' id='about-col'>
                         <div className='col-sm-6'>
-                            <p className='about'>I'm a creative and solutions-driven full stack web developer who recently earned a certificate in full stack development from Columbia University. I have honed skills in HTML, CSS, JavaScript, React.js, MySQL, and more to design and build meaningful applications from ideation to production.</p>
+                            <p className='about'>I'm a creative and solutions-driven recent graduate of Columbia University's Full Stack Web Development bootcamp. I have honed skills in HTML, CSS, JavaScript, React.js, MySQL, and more to design and build meaningful applications from ideation to production.</p>
                         </div>
                         <div className='col-sm-6'>
                             <img className='avatar' src={avatar} alt='avatar' />
                         </div>
                     </div>
-                    <p className='about'></p>
-                    <p className='about'>I have 8+ years of professional experience in a variety of operational roles in New York. Most recently, I served as Chief of Staff to the COO at a healthcare tech startup where I spent a lot of time collaborating with engineers and developers, ultimately inspiring me to make a pivot. Leveraging my background in operations, I am able to take users’ needs and issues, translate to product solutions, and execute the technical work.</p>
+                    <p className='about'>I have 8+ years of professional experience in a variety of operational roles in New York. Most recently, I served as Chief of Staff to the COO at a healthcare tech startup where I spent a lot of time collaborating with engineers and developers, ultimately inspiring me to make a pivot.</p>
+                    <p className='about'>Leveraging my background in operations, I am able to take users’ needs and issues, translate to product solutions, and execute the technical work. I have the unique ability to communicate interchangeably between non-technical and technical teams. I'm comfortable operating in ambiguity and thrive in fast-paced environments.</p>
                 </div>
             </div>
         </section>
