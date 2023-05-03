@@ -9,7 +9,7 @@ export default function Resume() {
             
             <div className='resume'>
                 <h3 className="subtitle">my skills & experience</h3>
-                <a href='../Resume.pdf' download='Laura Fitzgerald Resume'>
+                <a href='/Resume.pdf' download='Laura Fitzgerald Resume'>
                     <button id='downloadBtn' value='download' className='btn btn-success'>
                             Download Resume
                     </button>
